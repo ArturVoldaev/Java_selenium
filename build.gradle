@@ -12,6 +12,8 @@ repositories {
 dependencies {
     implementation group: 'org.testng', name: 'testng', version: '7.8.0'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.11.0'
+    implementation 'name.finsterwalder:fileutils:1.1'
+    implementation 'io.github.pityka:fileutils_2.13:1.2.5'
 }
 
 test {
